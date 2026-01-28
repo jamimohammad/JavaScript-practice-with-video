@@ -629,3 +629,47 @@
 // while (i < user2){
 // }   
 // alert('power' + power) 
+
+
+// //پنجاونه
+// //59-How-to-work-with-arrays-in-JS.mp4
+
+// let student = [10, 'hakan', true, '7khat']
+// // console.log(student.length)
+// console.log(student[2])
+
+
+//شصت
+//60-Work-with-(push)-(pop)-(shift)-and-(unshift)-methods.mp4
+
+// let scores = [23, 23, 65, 67]
+// console.log(scores)
+// scores[4] = 10
+// scores.push(155,144)//اخر اضاف میکه
+// scores.pop()//اخرین حرف را خذف میکنه
+// console.log(scores)
+// let scores = [23, 23, 65, 67]
+// console.log(scores)
+// scores.shift()//اول را حذف میکند
+// scores.unshift(10.12,12)//به اول اضاف میکنه
+// console.log(scores)
+
+
+//شصت و یک
+//61-Solve-exercise-of-calculating-average-of-numbers-to-desired-number-of-users-with-array.mp4
+
+// let arr = []
+// let user = 0
+// let sum = 0
+// while(user != -1){
+//     user = Number(prompt('enter a number'))
+//     if(user != -1){
+//         arr.push(user)
+//     }
+// }
+// for(let i = 0; i < arr.length;i++ ){
+//     sum+= arr[i]
+// }
+
+// console.log(arr)
+// console.log(sum / arr.length)
