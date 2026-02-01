@@ -673,3 +673,96 @@
 
 // console.log(arr)
 // console.log(sum / arr.length)
+
+
+//شصت و دو
+//62-How-to-define-and-work-with-Objects.mp4
+// let user = ['ali', 'mah']
+// console.log(user)
+// console.log(user['name'])
+// console.log(user.family)
+// let user1 = [
+//     { id: 9878, name: 'abas', age: 33 },
+//     { id: 9878, name: 'abas', age: 55}
+// ]
+// console.log(user1[1].age)
+
+
+//شصت و سه
+//63-Solve-registration-system-implementation-exercise.mp4
+// let user = [
+//     { id: 1, name: 'mahmood', family: 'jami', age: 66 },
+//     { id: 2, name: 'mohammad', family: 'mohammadi', age: 55 },
+//     { id: 3, name: 'javad', family: 'ahmadi', age: 33 }
+// ]
+
+// let username = prompt('enter name')
+// let userfamily = prompt('enter a family')
+// let userage = Number(prompt('enter a age'))
+
+// if (username.length < 3 || username.length > 10) {
+//     alert('bad brother')
+// } else if (userfamily.length < 3 || userfamily.length > 15) {
+//     alert('bad brother33')
+// }else if (isNaN(userage) || userage < 3) {
+//     alert('bad brother44')
+// }
+//  else {
+//     let newuser = {
+//         id: 4,
+//         name: username,
+//         family: userfamily,
+//         age: userage
+
+//     }
+//     user.push(newuser)
+//     console.log(user)
+// }
+
+
+//شصت و چهار
+//64-Working-with-forEach-method.mp4
+// let user = [
+//     'ali',
+//     'mohmood',
+//     'ahmad',
+//     'masoud'
+// ]
+// user.forEach(function(user1){
+// console.log(user1)
+// })
+// let user = [444, 44, 55 ,66, 777]
+// user.forEach(function(number){
+// console.log(number)
+// })
+
+
+//شصت و پنج
+//65-Solve-user-list-show-exercise.mp4
+// let user = [
+//     { id: 1, name: 'mahmood', family: 'jami', age: 66 },
+//     { id: 2, name: 'mohammad', family: 'mohammadi', age: 55 },
+//     { id: 3, name: 'javad', family: 'ahmadi', age: 33 }
+// ]
+
+// user.forEach(function(user22){
+//     console.log(user)
+// console.log(user22.name + 'family' + user22.family )
+// })
+
+
+//شصت و شیش
+// 66-How-to-use-includes-method.mp4
+// let userinput = prompt('enter your name')
+// let user = ['ali', 'hi', 'mahmood']
+
+// let login = user.includes(userinput)
+// if (login === true){
+//     alert('good')
+// }else{ 
+//     alert('bad')
+// }
+// console.log(user.includes('ali'))
+// let scores = [33, 44, 55, 66, 66]
+// let includes = scores.includes(33, 1)//از index یک یا دو log میگیره
+// console.log(includes)
