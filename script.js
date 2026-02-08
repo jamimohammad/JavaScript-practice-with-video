@@ -766,3 +766,252 @@
 // let scores = [33, 44, 55, 66, 66]
 // let includes = scores.includes(33, 1)//از index یک یا دو log میگیره
 // console.log(includes)
+
+
+//شصت و هفت
+//67-Working-with-some-method.mp4
+
+// let userdata = [
+//     { id: 1, name: 'mahmood', family: 'jami', age: 66 },
+//     { id: 2, name: 'mohammad', family: 'mohammadi', age: 55 },
+//     { id: 3, name: 'javad', family: 'ahmadi', age: 33 }
+// ]
+// let isgood = userdata.some(function(user){
+
+//     return user.name == 'mohammad'
+// })
+// console.log(isgood)
+
+
+
+//شصت و هشت
+//68-Solve-online-store-practice-buy-product
+
+// let allproducts = [
+//     { id: 1, name: 'computer', price: 10000 },
+//     { id: 2, name: 'phone', price: 20000 },
+//     { id: 3, name: 'pen', price: 30000 },
+//     { id: 4, name: 'car', price: 40000 },
+
+// ]
+
+// let userbasket = [
+//     { id: 1, name: 'computer', price: 10000 },
+//     { id: 2, name: 'phone', price: 20000 },
+// ]
+// let userproducts = prompt('enter what you want')
+
+// let requestproduct;
+
+// let isinshop = allproducts.some(function (product) {
+//   if(  product.name == userproducts){
+//   requestproduct = product
+//     return true
+//   }
+//   return false
+
+// })
+
+// if (isinshop == true) {
+//     let nowproducts = {
+//         id: 3,
+//         name: requestproduct.name,
+//         price: requestproduct.price
+//     }
+//     userbasket.push(nowproducts)
+//     let sum = 0
+//     userbasket.forEach(function(product){
+//         sum = sum + product.price
+//     })
+//     console.log(userbasket)
+//     alert(sum)
+// } else {
+//     alert('bad')
+// }
+
+
+//شصت و نه
+//69-How-to-work-with-every-method
+// let ages = [12, 44, 55, 66]
+
+// let all = ages.every(function(age){
+//     console.log(age)
+//     return age > 20
+// })
+// console.log(all)
+
+
+//هفتاد
+//70-Solve-constraint-exercises-for-conference-calls
+
+// let friends = [
+//     {id:1, name: 'ali', age: 23},
+//      {id:1, name: 'mahmood', age: 25},
+//       {id:1, name: 'ahmad', age: 44},
+//        {id:1, name: 'hamed', age: 29},
+//        {id:1, name: 'hasan', age: 31}
+// ]
+// let all = friends.every(function(user){
+//     return user.age > 18
+// })
+// if(all === true){
+//     console.log('you can join')
+// }else{
+//     console.log('you can not')
+// }
+
+
+
+//هفتادو یک
+//71-How-to-work-with-splice-method
+
+// let number = [1,2,3,4,5,6,7,8]
+
+// number.splice(0, 2, 55, 66)// اعداد را حذف میکنه و میتوانید اعداد دیگری جایگزین کنید
+// console.log(number)
+
+
+//هفتادودو
+//71-How-to-work-with-splice-method
+
+// let users = ['ali', 'mohammad', 'ahmad', 'hamed']
+
+// let index = users.findIndex(function(name){
+//     console.log(name)
+//     return name == 'ali'
+// })
+// console.log(index)
+
+// let user = [
+// {id:1, name: 'ali', age: 23},
+//      {id:1, name: 'mahmood', age: 25},
+//       {id:2, name: 'ahmad', age: 44},
+//        {id:3, name: 'hamed', age: 29},
+//        {id:4, name: 'hasan', age: 31}
+// ]
+// let name1 = user.findIndex(function(username){
+//     return username.name == 'ahmad'
+// })
+// console.log(name1)
+
+
+// هفتادو سه
+//73-Solve-Online-Store-Exercise-Advanced
+
+// let allproducts = [
+//     { id: 1, name: 'computer', price: 10000 },
+//     { id: 2, name: 'phone', price: 20000 },
+//     { id: 3, name: 'pen', price: 30000 },
+//     { id: 4, name: 'car', price: 40000 },
+
+// ]
+
+// let userbasket = [
+//     { id: 1, name: 'computer', price: 10000 },
+//     { id: 2, name: 'phone', price: 20000 },
+// ]
+
+// let userrequest = prompt('1: for add product\n 2: for remove product')
+
+// if (userrequest === '1') {
+//     let userproductname = prompt('enter your name')
+
+//     let productdata;
+
+//     let inisshop = allproducts.some(function (nameofproduct) {
+//         if (nameofproduct.name === userproductname) {
+//             productdata = nameofproduct
+//             return true
+//         }
+//     })
+//     if (inisshop === true) {
+//         let newproduct = {
+//             id: 3,
+//             name: productdata.name,
+//             price: productdata.price 
+//         }
+//         userbasket.push(newproduct)
+//         console.log(userbasket)
+//     } else {
+//         alert('این را نداریم')
+//     }
+// } else if (userrequest === '2') {
+//     let userproductname = prompt('enter your name')
+//     let productindex = userbasket.findIndex(function (nameofproduct) {
+//         return nameofproduct.name == userproductname
+//     })
+//     userbasket.splice(productindex, 1)
+//     console.log(userbasket)
+
+// } else {
+//     alert('bad')
+// }
+
+
+
+//هفتادو چهار
+// //74-Learning-to-work-with-map-method
+// let scores = [3, 5, 6, 7, 4]
+
+// let tavan = scores.map(function(score){//map نه به false and true وابسته نیست
+//     return score ** 2
+// })
+//  console.log(tavan) 
+
+
+
+//هفتادو پنج
+//75-Training-to-work-with-filter-method
+
+// let scores = [ 22, 44, 66, 21, 12, 13]
+// let all = scores.filter(function(score){
+//     return score > 18
+// })
+// console.log(all)
+// let names = ['alitt', 'ahmad', 'hi', 'how']
+
+// let username = names.filter(function(name){
+//     return name.length > 3
+// })
+// console.log(username)
+
+
+
+//هفتادو شیش
+//76-Solve-exercise-of-calculating-postage-according-to-specific-conditions
+
+// let userbasket = [
+
+// {id: 1, name: 'pen', price: 20},
+// {id: 2, name: 'phone', price: 30},
+// {id: 3, name: 'car', price: 100},
+// {id: 4, name: 'glass', price: 500},
+// {id: 5, name: 'computer', price: 600},
+// {id: 6, name: 'headphones', price: 200}
+// ]
+
+// let underhundred = userbasket.filter(function(under){
+//     return under.price < 100
+// })
+// let add = underhundred.length * 100
+// let sum = 0
+// userbasket.forEach(function(price1){
+//     sum = sum  + price1.price
+// })
+// console.log(sum + "         " + add)
+
+
+
+//هفتادو هفت
+//77-Arrays-and-Strings-Methods-2
+// let test = [4,5, 6,7,7]
+// console.log(Array.isArray(test))
+
+// console.log(test.indexOf(7))
+// console.log(test.lastIndexOf(7))//اخرین index را پیدا میکنه
+
+// console.log(test.slice(2, 4))//بین دو پنج را لاگ میکنه
+// console.log(test.join('/'))
+// console.log(test.reverse())
+// let user = 'main/hi/jo'
+// console.log(user.split("/"))// تقسیم میکنه
