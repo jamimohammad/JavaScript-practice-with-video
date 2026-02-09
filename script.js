@@ -63,6 +63,8 @@
 // alert (string + ' ' + number)
 ///////////////
 
+// const { use } = require("react")
+
 //thirteen
 //method nan
 // let str1 = 'sanzlearn'
@@ -1015,3 +1017,75 @@
 // console.log(test.reverse())
 // let user = 'main/hi/jo'
 // console.log(user.split("/"))// تقسیم میکنه
+
+
+
+
+//هفتادو هشت
+//78-Solve-exercise-to-determine-legibility-of-text-from-left-and-right
+
+// let word = prompt('enter a word')
+// let care = word.split('')
+// let reverse = care.reverse()
+// let jo = reverse.join('')
+
+// if (jo === word){
+//     alert('good')
+// }else{
+//     alert('bad')
+// }
+
+
+//هفتادو نه
+//79-Best-Prctice-in-JavaScript-1
+
+// let test = true
+// if (test){
+//     alert('good')
+// }
+
+
+
+//هشتاد
+//80-TodoList-exercises
+
+// let todos = [
+//     { id: 1, title: 'learncss', isdid: false },
+//     { id: 2, title: 'learnhtml', isdid: true },
+//     { id: 3, title: 'learnjs', isdid: false}
+
+// ]
+
+// let user = prompt('choose one of them \n 1: add  \n 2: remove \n 3 : change')
+
+// if (user === '1'){
+// let ask  = prompt ('tell me what you want')
+// let newproduct = {
+//     id: todos.length + 1,      
+//     title: ask,
+//     isdid:false
+// }
+// todos.push(newproduct)
+// // console.log(todos)
+// }else if (user === '2'){ 
+// let remove = prompt('enter the name of what you want to clean')
+
+//   let remove1 = todos.findIndex(function(todo){
+//  todo.title == remove
+// })
+// todos.splice(remove1 , 1)
+// // console.log(todos)
+ 
+// }else if (user === '3'){
+// let hi = prompt('enter')
+// todos.forEach(function(edit){
+
+// if(edit.title === hi){
+//     return edit.isdid = true
+// }
+// })
+// console.log(todos)
+
+// }else{ 
+//     alert('bad bro')
+// }
