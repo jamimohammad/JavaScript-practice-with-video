@@ -1089,3 +1089,280 @@
 // }else{ 
 //     alert('bad bro')
 // }
+
+
+
+//هشتادو یک
+//81-Solve-Task-Management-Exercise
+
+// let taskarray = {
+//     ali:['html', 'css', 'java'],
+//     ahmad:['front', 'back', 'vue'],
+//      mahmood:['script', 'ima', 'link'],
+//     ahmad:['com', 'pusht', 'jack']
+// }
+// let newtaskname = prompt('enter the name of task')
+// let emoloyename = prompt('enter the name of employee')
+
+// let employetask = taskarray[emoloyename]
+
+// employetask.push(newtaskname)
+
+// console.log(taskarray)
+
+
+
+//هشتادو دو
+//82-Differences-between-Primitive-and-Reference-datatypes
+// let num1 = 10
+// let num2 = num1
+// num2 = 20
+
+// console.log(num1)
+// console.log(num2)
+
+// let num1 ='ali'
+// let num2 = num1
+// num2 = 'ahamd'
+
+// console.log(num1)
+// console.log(num2)
+///////////////////////////////////////////
+// let user1 = ['ali', 'ahmad', 'hi', 'sohail']
+
+// let user2 = user1
+
+// user2.push('mohammad')
+
+// console.log(user1)
+// console.log(user2)
+//////////////////////////////////
+
+// let product = {
+//     id: 2,
+//     price: 1000
+// }
+
+// let newproduct = product
+
+// newproduct.count = 10
+
+// console.log(product)
+// console.log(newproduct)
+
+
+
+
+//هشتادوسه
+//83--Solve-practice-of-selling-tickets-online
+
+// let cities = {
+//     herat: ['abrisham', 'gerdaipark','zandahjan'],
+//     kabul:['pulsange', 'jaba', 'hiabad'],
+//     farah:['sarpul', 'pul','bibi'],
+//     zandahjan:['mahalnow', 'popalzi']
+
+// }
+
+// let start = prompt('enter the city')
+
+// let city = cities[start]                                               
+
+// city.forEach(function(all) {
+//     console.log(all)
+// });
+
+
+
+
+//هشتادو چهار
+//84-Solve-online-test-practice-along-with-score-calculation
+
+// let questions = [
+//     {id: 1, title: '2+4', answer: '6'},
+//     {id: 2, title: '4+4', answer: '8'},
+//     {id: 3, title: '2+8', answer: '10'},
+//     {id: 4, title: '5+10', answer: '15'},
+//     {id: 5, title: '2+2', answer: '4'}
+// ];
+
+// let score = 0;
+
+// questions.forEach(function(ques) {
+//     let answer = prompt(ques.title + '?');
+
+//     if (answer === ques.answer) {
+//         score++;
+//     }
+// });
+
+// console.log(score);
+
+
+
+
+//هشتادو پنج
+//85-Solve-calculator-implementation-exercise
+
+// let num1 = +prompt('enter the first number')
+// let num2 = +prompt('enter the second number')
+
+// let operator = prompt('enter the operator\n1.  +\n2.   -\n 3.   *\n 4.    /')
+
+// if (operator === '1'){
+// sum(num1, num2)
+// }else if(operator === '2'){
+// manfi(num1, num2)
+// }else if(operator === '3'){
+//     multipliction(num1, num2)
+//     }
+//     else if(operator === '4'){
+// division(num1, num2)    
+//     }else{
+//         alert('bad')
+//     }
+
+//     function sum(num1, num2){
+//         // return num1 + num2
+//         alert(num1 + num2)
+//     }
+//       function manfi(num1, num2){
+//         // return num1 - num2
+//         alert(num1 - num2)
+//     }
+//       function multipliction(num1, num2){
+//         // return num1 * num2
+//         alert(num1 * num2)
+//     }
+//       function division(num1, num2){
+//         // return num1 / num2
+//         alert(num1 / num2)
+//     }
+
+
+
+
+//هشتادو شیش
+//86-Working-with-find-method
+
+// let names = [
+//     {id: 1, name: 'ali', age: 21},
+//     {id: 2, name: 'ahmad', age: 11},
+//     {id: 3, name: 'mahmood', age: 31},
+//     {id: 4, name: 'hi', age: 41}
+// ]
+
+// let usee = names.find(function(fin){
+//     return fin.name === 'ali'
+// })
+// console.log(usee)
+
+
+
+
+
+//هشتادو هفت
+//87-Solve-password-forgetting-exercise
+
+// let userdata = [
+//     {id:1, name: 'ali', password: '0123451', gmail: 'ali@gmail.com'},
+//     {id:2, name: 'ahmad', password: '0123452', gmail: 'ahmad@gmail.com'},
+//     {id:3, name: 'hi', password: '0123453', gmail: 'hi@gmail.com'},
+//     {id:4, name: 'mahmood', password: '0123454', gmail: 'mahmood@gmail.com'},
+//     {id:5, name: 'jami', password: '0123455', gmail: 'jami@gmail.com'}
+// ];
+
+// let username = prompt('enter your name');
+
+// let mainuserdata = userdata.find(function(user){
+//     return user.name === username;
+// });
+
+// if(mainuserdata === undefined){
+//     alert('شما در سایت ثبت نام نکردید')
+// }else{
+//     alert(mainuserdata.password)
+// }
+
+// console.log(mainuserdata.password);
+
+
+//هشتادو هشت
+//88-How-to-use-eval-method
+// eval('var x = 5')
+// alert(x)
+
+
+
+
+
+//هشتادو نه
+//89-Why-should-not-we-use-eval-Eval-Is-Evil
+
+// let user = prompt('etenr a number')
+// eval(user)
+
+
+
+
+//نود
+//90-Work-with-Anonymous-and-IIFE-functions
+
+//َAnonymous function
+// let ask = prompt('etner a number')
+
+// ask.filter(function(hi){
+//     return ask.name === 'ali'
+// })
+
+// //IIFE
+
+// (function (){
+//     alert('good')
+// }())
+
+
+
+//نودویک
+//91-Best-Prctice-in-JavaScript-2
+
+
+
+//نودودو
+//92-How-to-work-with-setInterval
+// let i = 10
+// let clear = setInterval(function(){
+
+// if(i === 0){
+
+//     alert('Game over')
+// clearInterval(clear)
+// }
+
+//     console.log(i)
+//     i--
+// },1000)
+
+
+
+//نودوسه
+//93-Solve-timer-exercises
+
+// let minuts = +prompt('enter the miunt')
+// let second = +prompt('enter the second')
+
+// let timer = setInterval(function(){
+
+// if(second === -1){
+//     minuts--
+//     second= 59
+// }
+
+// if(minuts === 0 && second === 0){
+//     clearInterval(timer)
+// }
+
+// console.log("minut    " +minuts + '     second      ' + second)
+// second--
+
+// },500)
