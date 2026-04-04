@@ -1366,3 +1366,481 @@
 // second--
 
 // },500)
+
+
+
+//نود و چهار
+//94-Falsy-and-truthy-values-in-javascript
+// let ask = prompt('enter a number')
+
+// if(ask === ''){
+//     alert('bad')
+// }
+
+
+
+
+//نودوپنج
+//95-How-to-use-setTimeout
+
+// setTimeout(function(num, num1) {
+//     alert(num+ num1)
+// },5000, 10, 4);
+
+
+
+
+//نودوشیش
+//96-Solve-profile-photo-upload-exercise
+
+// let profile = false
+
+// setTimeout(function(){
+
+//     if(!profile){
+//         alert('please enter your profile ')
+//     }
+
+// },1000)
+
+
+
+
+
+
+//نودوهفت
+//97-Application-of-Flag-in-programming
+
+// let user = prompt('enter your user name')
+
+// let name1 = ['ali', 'hi', 'mahmood', 'ahmad']
+
+
+// let flag = false
+
+// for(let i = 0; i < name1.length; i++){
+//     if(name1[i]=== user){
+//         flag = true
+//     }
+// }
+
+// if(flag){
+//     alert('good')
+// }else{
+//     alert('bad')
+// }
+
+
+
+//نودوهشت
+//98-The-concept-of-Hoisting-in-JS
+
+// num1 = 10
+// num2 = 20
+// console.log(num1 + num2)
+
+// var num1,num2
+// var num2
+
+// show()
+
+// function show(){//اگر function را داخل variable کنیم از hoist پیروی نمیکنه
+// console.log(12+ 12)
+// }
+
+
+//نودونه
+//99-role-of-let-and-const-keywords-in-JavaScript
+ /////////////////////////////////////////////////                                   
+
+//صد
+//100-Final-speech-of-introductory-level
+////////////////////////////////////////
+
+
+
+// //صدویک
+// //101-What-is-the-meaning-of-DOM
+
+// let h1 = document.getElementById('title')
+// console.log(h1)
+
+
+
+//صدودو
+//102-Methods-for-selecting-elements-using-JS
+
+// let li = document.getElementsByClassName('item') //ارایه برمیگردانه class name
+// console.log(li)
+
+// let li = document.getElementsByTagName('li')
+// console.log(li[1])
+
+// let first = document.querySelector('.item')//like css the first one
+//  console.log(first)
+
+// let all = document.querySelectorAll('.item')//like css all
+// console.log(all)
+
+
+
+
+//صدوسه
+//103-Access-to-attributes-using-JS
+
+// let h = document.getElementById('title')
+// // h.setAttribute('class','text')
+// // console.log(h.getAttribute('align'))
+
+// let li = document.getElementsByClassName('item')
+// console.log(li[0].setAttribute('id', 'about'))
+
+
+
+
+//صدوچهار
+//104-Access-style-of-elements-and-change-them-with-JS
+
+// let h1 = document.getElementById('title')
+// h1.style.color = 'red'
+// h1.style.fontSize = '50px'
+
+
+
+
+//صدوپنج
+//105-How-to-access-content-of-Html-elements-and-change-them-with-JS
+/////////////
+// let h1 = document.getElementById('title')
+// console.log(h1.innerHTML)//innertext  like this   text content
+// let li = document.querySelectorAll('.item')
+// li[0].innerHTML = 'look at thie'
+//////////
+// let input = document.getElementById('input')
+// console.log(input.value)
+/////
+// let select = document.getElementById('select')
+// select.value = 'tehran'
+// console.log(select.value)
+//////
+
+
+
+
+
+//صدوشیش
+//106-How-to-build-Html-elements-with-JS
+// let username = prompt('enter your name')
+
+// let newdivel = document.createElement('div')
+
+// newdivel.innerHTML = username
+
+// newdivel.setAttribute('id', 'ali')
+// newdivel.setAttribute('class', 'hi')
+
+// console.log(newdivel)
+
+
+
+
+//صدوهفت
+//107-How-to-append-elements-in-DOM
+
+// let ul = document.querySelector('ul')
+// let newli = document.createElement('li')
+
+// newli.innerHTML = 'product'
+// ul.append(newli)//appendchild  like append
+// console.log(newli)
+
+
+
+
+//صدوهشت
+//108-Events-in-JS-onClick-event
+
+// let h1 = document.getElementById('title')
+// function clicknew (){
+//     alert('clicked')
+//     h1.style.color = 'red'
+// }
+
+
+
+//صدونه
+//109-Implement-a-mini-project-to-turn-the-lamp-on-and-off
+
+// let bulb = document.getElementById('bulb')
+// let btn = document.getElementById('btn')
+// let bulbflag = true
+
+// function turnonoroff (){
+//     // alert('good')
+// if(bulbflag){
+//     bulb.setAttribute('src','./pic_bulboff.gif')
+// btn.innerHTML = 'turn on'
+// bulbflag = false
+// }else{
+//      bulb.setAttribute('src','./pic_bulbon.gif')
+// btn.innerHTML = 'turn of'
+// bulbflag = true
+// }
+// }
+
+
+
+
+//صدوده
+//110-do-Login-Form-Validation-mini-project
+
+// let username = document.querySelector('.username');
+// let password = document.querySelector('.password');
+// let modal = document.querySelector('.modal')
+// function dataValidation() {
+//     let nameValue = username.value;
+//     let passwordValue = password.value;
+
+//     if (nameValue.length < 12 || passwordValue.length < 8){
+//         modal.style.display= 'inline'
+//         modal.innerHTML = 'لطفا اطلاعات را درستی وارد نمایید'
+//     }else{
+//         modal.style.background= 'green'
+//         modal.innerHTML = 'لاگین با موفقیت انجام شد'
+//         modal.style.display = 'inline'
+//     }
+// setTimeout(function(){
+//     modal.style.display= 'none'
+// },3000)
+// // console.log(namevalue, passwordvalue)
+// }
+
+
+
+
+
+
+// //صدویازه
+// //111-Use-KeyBoard-Events
+// function keyLog(){
+//     console.log('typed')
+// }
+
+
+//صدودوازده
+//112-do-Form-Validation-mini-project-with-Keyboard-Events
+
+// let usernameMessage = document.querySelector('.username-validation') 
+// let passwordMessage = document.querySelector('.password-validation')
+// let usernameInput = document.querySelector('.username')
+// let passwordInput = document.querySelector('.password')
+
+// function usernameValidation () {
+
+// if (usernameInput.value.length < 12) {
+// usernameMessage.style.color = 'red'
+// usernameMessage.innerHTML = 'Must Contain 12 Character (Min)'
+// usernameMessage.style.display = 'block'
+
+// }else {
+// usernameMessage.style.color = 'green'
+// usernameMessage.innerHTML = 'Correct Usernal Value'
+// usernameMessage.style.display = "block"
+// }
+// }
+// function passwordValidation () {
+
+// if (passwordInput.value.length < 8) {
+// passwordMessage.style.color = 'red'
+// passwordMessage.innerHTML = 'Must Contain 12 Character (Min)'
+// passwordMessage.style.display = 'block'
+
+// }else {
+// passwordMessage.style.color = 'green'
+// passwordMessage.innerHTML = 'Correct Usernal Value'
+// passwordMessage.style.display = "block"
+// }
+// }
+
+
+
+
+//صدوسیزده
+//113-Use-Focus-and-Blur-Events
+
+// function usernamefocus(){
+//     console.log('focus')
+// }
+// function usernameblur(){
+//     console.log('vlur')
+// }
+// function passwordfocus (){
+//     console.log('focus')
+// }
+// function passwordblur(){
+//     console.log('vlur')
+// }
+
+
+
+
+
+
+
+//صدو چهارده
+// 114-do-Form-Validation-mini-project-with-Blur-Event
+// let $ = document
+
+// let usernameinput = document.querySelector('.username');
+// let passwordinput = document.querySelector('.password');
+
+// let usernamemessage = document.querySelector('.username-message');
+// let passwordmessage = document.querySelector('.password-message');
+
+// function usernamevalid() {
+//   if (usernameinput.value.length < 12) {
+//     usernamemessage.innerHTML = 'Username must contain at least 12 characters';
+//     usernamemessage.style.color = 'red';
+//     usernamemessage.style.display = 'block';
+//   } else {
+//     usernamemessage.innerHTML = 'Valid username';
+//     usernamemessage.style.color = 'green';
+//      usernamemessage.style.display = 'block';
+//   }
+// }
+// function passwordvalid (){
+//   if (passwordinput.value.length < 8){
+//     passwordmessage.innerHTML = 'Username must contain at least 12 characters';
+//     passwordmessage.style.color = 'red';
+//     passwordmessage.style.display = 'block';
+//   } 
+//   else{
+//     passwordmessage.innerHTML = 'correct';
+//     passwordmessage.style.color = 'green';
+//      passwordmessage.style.display = 'block';
+//   }
+// }
+
+
+
+
+//صدوپانزده
+//115-Use-dblClick-event
+// function clickevent(){
+//     console.log('click')
+// }
+
+
+
+
+//صدو شانزده
+//11-How-to-set-up-an-event-using-addEventListener
+
+// let h1elem = document.querySelector('.hi')
+// h1elem.addEventListener('click', ali)
+// // h1elem.addEventListener('click', function() {
+// //     console.log('clicked')
+// // })
+// function ali() {
+//     console.log('clicked')
+// }
+
+
+
+
+//صدو هفده
+//117-Use-classList-methods
+
+// let h1 = document.getElementById('title1')
+
+// h1.addEventListener('click',function(){
+//     // h1elem.setAttribute('class', 'red')
+//     // h1.classList.add('red')
+//     // h1.classList.remove('red')//
+//     h1.classList.toggle('red')
+
+// })
+
+
+
+
+
+
+//صدوهیجده
+//118-do-Random-BackgroundColor-mini-project
+
+// let array = ['red', 'green', 'black', 'pink', 'blue']
+// let randoncolor 
+// setInterval(function(){
+//     randoncolor = Math.floor(Math.random()* array.length)
+//     document.body.style.backgroundColor = array[randoncolor]
+// },1000)
+
+// let red, green, blue
+// setInterval(function(){
+//     red = Math.floor(Math.random()* 255)
+//         green = Math.floor(Math.random()* 255)
+//     blue = Math.floor(Math.random()* 255)
+
+//     document.body.style.backgroundColor = 'rgd( ' + red + ',' + green + ',' +  blue +')' 
+// },1000)
+
+// let red, green, blue;
+// setInterval(function() {
+//     red = Math.floor(Math.random() * 256);
+//     green = Math.floor(Math.random() * 256);
+//     blue = Math.floor(Math.random() * 256);
+
+//     document.body.style.backgroundColor = `rgb(${red},${green},${blue})`;
+// }, 1000);
+
+
+
+
+
+// صدونوزده
+//119-Work-with-onChange-event
+
+// let all = document.getElementById('con')
+// function changehandle(){
+//     console.log(all.value)
+// }
+
+
+
+//صدوبیست
+//120-Mini-ticket-sales-project-how-to-implement
+
+
+
+//صدوبیست و یک
+//121-do-mini-project-online-ticket-sales
+
+// let click = document.querySelector('.con')
+// let citySelect = document.querySelector('.cityselect')
+
+// let datacon = {
+//     iran: ['tabriz', 'tehran', 'mashad', 'esfahan'],
+//     turkey: ['istanbul', 'ezmir', 'ankara', 'antalya'],
+//     af: ['herat', 'kabul', 'kandahar']
+// }
+
+// click.addEventListener('change', function () {
+
+//     let conname = datacon[click.value]
+
+//     citySelect.innerHTML = ""
+
+//     if (conname) {
+//         conname.forEach(function(city){
+//             let option = document.createElement("option")
+//             option.value = city
+//             option.textContent = city
+//             citySelect.appendChild(option)
+//         })
+//     } else {
+//         citySelect.innerHTML = "<option>No cities</option>"
+//     }
+
+// })
+
