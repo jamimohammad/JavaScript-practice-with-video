@@ -1075,7 +1075,7 @@
 // })
 // todos.splice(remove1 , 1)
 // // console.log(todos)
- 
+
 // }else if (user === '3'){
 // let hi = prompt('enter')
 // todos.forEach(function(edit){
@@ -1451,7 +1451,7 @@
 
 //نودونه
 //99-role-of-let-and-const-keywords-in-JavaScript
- /////////////////////////////////////////////////                                   
+/////////////////////////////////////////////////                                   
 
 //صد
 //100-Final-speech-of-introductory-level
@@ -1844,3 +1844,142 @@
 
 // })
 
+
+
+
+
+//صدوبیست و دو
+//122-Weather-App-mini-project-how-to-implement
+
+//123-do-the-Weather-App-project-First-Way
+//worked
+
+//124-do-the-Weather-App-project-Second-Way
+//worked
+
+
+
+
+//125-3-main-differences-between-append-and-appendChild
+// let ull = document.querySelector('ul')
+// function addnew(){
+//     // alert('good')
+
+//     let newli = document.createElement('li')
+// newli.innerHTML = 'products'
+
+// // ull.append(newli)//also we can add a paragraph // also we can add two element
+// // ull.appendChild(newli)//vise versa....
+// // console.log(newli)
+
+// // let newappend = ull.append(newli)//can not //undifind
+// let newappend = ull.appendChild(newli)//can
+
+// console.log(newappend)
+
+// }
+
+
+
+
+
+//126-Differences-between-(onKeyPress)-(onKeyDown)-(onKeyUp)-events
+
+// function keydown(){
+// console.log('down')
+// }
+
+// function keypress(){
+// console.log('press')
+// }
+
+
+// function keyup(){
+// console.log('up')
+// }
+
+
+
+
+
+// 127-Temp-Conversion-mini-project-how-to-implement
+//worked
+
+
+
+
+//128-do-Temp-Conversion-Mini-Project-1
+//129-do-Temp-Conversion-Mini-Project-2
+//130-do-Temp-Conversion-Mini-Project-3
+
+// let first = document.querySelector('.c')
+// let second = document.querySelector('.f')
+// let converter = document.querySelector('#converter')
+// let result = document.querySelector('.result')
+// let convertbtn = document.querySelector('.convertbtn')
+// let resetbtn = document.querySelector('.resetbtn')
+// let changebtn = document.querySelector('.changebtn')
+
+
+
+// function convert() {
+//     if (converter.value === '') {
+//         result.innerHTML = 'empty value'
+//         result.style.color = 'red'
+//     }else{
+//         if(first.innerHTML === 'c'){
+// let resultvalue = (converter.value * 1.8) + 32
+// result.innerHTML = converter.value + '.c to ' + resultvalue + '.f'
+//         }else{
+//             let resultvalue = (converter.value - 32) * 5/9
+//             result.innerHTML = converter.value + '.f to ' + resultvalue.toFixed(2) + '.c'
+
+//         }
+//     }
+// }
+// function reset() {
+//     result.innerHTML = ''
+//     // converter.setAttribute('value', '')
+//     converter.value = ''
+// }
+// function swap() {
+//     if (first.innerHTML === 'c') {
+//         first.innerHTML = 'f'
+//         second.innerHTML = 'c'
+//         converter.setAttribute('placeholder', '.f')
+//         document.title = '.f to .c'
+//     } else {
+//         first.innerHTML = 'c'
+//         second.innerHTML = 'f'
+//         converter.setAttribute('placeholder', '.c')
+//         document.title = '.c to .f'
+
+//     }
+// }
+
+// convertbtn.addEventListener('click', convert)
+// resetbtn.addEventListener('click', reset)
+// changebtn.addEventListener('click', swap)
+
+
+
+
+
+
+//131-Differences-between-Attributes-and-Properties-in-DOM
+
+// let h1elem = document.getElementById('title')
+// // console.log(h1elem.getAttribute('class'))
+// console.log(h1elem.className)
+
+//////////////////////////////////////////////
+
+// let userinput = document.getElementById('input')
+// console.log(userinput.getAttribute('usertype'))
+
+////////////////////////////////////////////////
+
+// let inputelem = document.getElementById('input')
+// inputelem.usertype = 'admin'
+// console.log(inputelem.usertype)
+// console.log(inputelem.getAttribute('usertype'))
