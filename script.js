@@ -1983,3 +1983,174 @@
 // inputelem.usertype = 'admin'
 // console.log(inputelem.usertype)
 // console.log(inputelem.getAttribute('usertype'))
+
+
+
+
+//132-How-to-work-with-hasAttribute-and-removeAttribute-in-DOM
+
+// let inputelem = document.getElementById('input')
+// console.log(inputelem.hasAttribute('placeholder'))
+// function remove(){
+//     inputelem.removeAttribute('placeholder')
+// }
+
+
+
+
+// 133-The-third-way-to-set-the-Event
+
+// let btn = document.getElementById('btn')
+// function showlog(){
+//     alert('showlog')
+// }
+
+// btn.onclick = showlog
+
+// btn.onclick = function showlog (){
+//     alert('click')
+// }
+
+// btn.addEventListener('click', showlog)
+
+
+
+
+
+//134-Work-with-the-onSubmit-event
+
+// let login = document.getElementById('login')
+// login.addEventListener('submit', function(){
+//     console.log('submited')
+// })
+
+
+
+
+
+//135-How-to-work-with-event-object
+
+// let log = document.getElementById('btn')
+// let userinput = document.getElementById('username')
+
+// log.addEventListener('click', function(event){
+//     console.log(event)
+// })
+
+// userinput.addEventListener('keydown', function(event){
+//     console.log(event)
+// })
+
+
+
+//136-The-concept-of-preventDefault-and-its-use-in-different-situations
+
+// let login = document.getElementById('form')
+// let user = document.getElementById('username')
+
+// login.addEventListener('submit', function(event){
+//     event.preventDefault()
+//     console.log('submit')
+// })
+
+// user.addEventListener('keydown',function(event){
+//     event.preventDefault()
+//     console.log(event)
+// })
+
+
+
+
+// 137-Mini-project-keyCode-how-to-implement
+
+
+
+
+
+
+
+
+//138-do-keyCode-mini-project
+//worked
+
+
+
+
+//139-concept-of-Node-and-its-variants-in-JS
+
+// let h1elem = document.getElementById('title')
+
+// console.log(h1elem.nodeName)
+// console.log(h1elem.nodeType)
+
+
+
+
+//140-How-to-Dom-Navigation-in-JS
+
+// let head1 = document.getElementById('head1')
+// let head2 = document.getElementById('head2')
+// let head3 = document.getElementById('head3')
+// let head4 = document.getElementById('head4')
+// let head5 = document.getElementById('head5')
+// let head6 = document.getElementById('head6')
+// let list = document.getElementById('list')
+// let listitem = document.getElementsByClassName('listitem')
+
+// console.log(head3.parentNode)//its father
+// console.log(head3.parentElement)//we can call its father
+// console.log(head3.previousElementSibling.previousElementSibling)// we use when we want to call previouselement we can call 2 times
+// console.log(head3.nextElementSibling.nextElementSibling)//also this
+// console.log(list[2].nextSibling.nextSibling)// it chose empty place
+
+// console.log(list1.childElementCount)
+// console.log(list1.children[2])
+// console.log(list1.childNodes )
+// console.log(list.hasChildNodes())
+
+// console.log(list.firstChild)
+// console.log(list.lastChild)
+
+// console.log(list.firstElementChild)
+// console.log(list.lastElementChild.firstChild.style.color = 'red')
+
+
+
+
+
+//141-Description-of-Show-Password-Debug-project
+// explian
+
+
+
+// 142-Show-Password-project-debugging
+//worked
+
+
+
+
+//143-How-to-remove-an-element-from-DOM
+
+// let btn = document.querySelector('button')
+// let h1 = document.getElementById('title')
+
+// let h2 = document.getElementsByClassName('text')
+
+// btn.addEventListener('click', function(){
+//     // console.log('good')
+//     // h1.remove()
+//   h2[0].remove()
+// })
+
+// let item = document.querySelectorAll('.list-item')
+
+// // console.log(item)
+
+// item.forEach(function(li) {
+// // console.log(li)
+// li.addEventListener('click', function(event){
+//     // console.log(event.target)
+//     // event.target.remove()
+//     event.target.parentElement.remove()
+// })
+// })
