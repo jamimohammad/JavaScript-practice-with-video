@@ -1489,8 +1489,8 @@
 //103-Access-to-attributes-using-JS
 
 // let h = document.getElementById('title')
-// // h.setAttribute('class','text')
-// // console.log(h.getAttribute('align'))
+// h.setAttribute('class','text')
+// console.log(h.getAttribute('align'))
 
 // let li = document.getElementsByClassName('item')
 // console.log(li[0].setAttribute('id', 'about'))
@@ -1774,7 +1774,7 @@
 // setInterval(function(){
 //     randoncolor = Math.floor(Math.random()* array.length)
 //     document.body.style.backgroundColor = array[randoncolor]
-// },1000)
+// },5000)
 
 // let red, green, blue
 // setInterval(function(){
@@ -1783,16 +1783,15 @@
 //     blue = Math.floor(Math.random()* 255)
 
 //     document.body.style.backgroundColor = 'rgd( ' + red + ',' + green + ',' +  blue +')' 
-// },1000)
+// },2000)
 
-// let red, green, blue;
 // setInterval(function() {
 //     red = Math.floor(Math.random() * 256);
 //     green = Math.floor(Math.random() * 256);
 //     blue = Math.floor(Math.random() * 256);
 
 //     document.body.style.backgroundColor = `rgb(${red},${green},${blue})`;
-// }, 1000);
+// }, 5000);
 
 
 
@@ -1912,58 +1911,6 @@
 //129-do-Temp-Conversion-Mini-Project-2
 //130-do-Temp-Conversion-Mini-Project-3
 
-// let first = document.querySelector('.c')
-// let second = document.querySelector('.f')
-// let converter = document.querySelector('#converter')
-// let result = document.querySelector('.result')
-// let convertbtn = document.querySelector('.convertbtn')
-// let resetbtn = document.querySelector('.resetbtn')
-// let changebtn = document.querySelector('.changebtn')
-
-
-
-// function convert() {
-//     if (converter.value === '') {
-//         result.innerHTML = 'empty value'
-//         result.style.color = 'red'
-//     }else{
-//         if(first.innerHTML === 'c'){
-// let resultvalue = (converter.value * 1.8) + 32
-// result.innerHTML = converter.value + '.c to ' + resultvalue + '.f'
-//         }else{
-//             let resultvalue = (converter.value - 32) * 5/9
-//             result.innerHTML = converter.value + '.f to ' + resultvalue.toFixed(2) + '.c'
-
-//         }
-//     }
-// }
-// function reset() {
-//     result.innerHTML = ''
-//     // converter.setAttribute('value', '')
-//     converter.value = ''
-// }
-// function swap() {
-//     if (first.innerHTML === 'c') {
-//         first.innerHTML = 'f'
-//         second.innerHTML = 'c'
-//         converter.setAttribute('placeholder', '.f')
-//         document.title = '.f to .c'
-//     } else {
-//         first.innerHTML = 'c'
-//         second.innerHTML = 'f'
-//         converter.setAttribute('placeholder', '.c')
-//         document.title = '.c to .f'
-
-//     }
-// }
-
-// convertbtn.addEventListener('click', convert)
-// resetbtn.addEventListener('click', reset)
-// changebtn.addEventListener('click', swap)
-
-
-
-
 
 
 //131-Differences-between-Attributes-and-Properties-in-DOM
@@ -2019,7 +1966,7 @@
 
 //134-Work-with-the-onSubmit-event
 
-// let login = document.getElementById('login')
+// let login = document.getElementById('form')
 // login.addEventListener('submit', function(){
 //     console.log('submited')
 // })
@@ -2038,7 +1985,7 @@
 // })
 
 // userinput.addEventListener('keydown', function(event){
-//     console.log(event)
+//     console.log(event.key)
 // })
 
 
