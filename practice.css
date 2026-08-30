@@ -25,7 +25,11 @@ display: none;
     display: none;
 } */
 
-.red{
-    color: red;
-}
+/* .   <div id="box"></div> */
 
+
+#box{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}

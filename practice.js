@@ -2101,3 +2101,224 @@
 //     event.target.parentElement.remove()
 // })
 // })
+
+
+
+//144-Todo-List-Project-How-to-Implement
+//145-Todo-List-Project-1
+// 146-Todo-List-Project-2
+
+
+
+//147-How-to-work-with-onContextMenu-event
+
+// function clickhandler (){
+// console.log('click')
+// }
+
+// function contextmenu (){
+// console.log('right')
+// }
+
+
+// 148-How-to-manage-ClipBoard-events
+
+// let edit = document.getElementById('editor')
+
+// function copy(event){
+//     event.preventDefault()
+// console.log('copy', event)
+// }
+
+// function cut(event){
+//       event.preventDefault()
+//     console.log('cut',event)
+// }
+// function paste(event){
+//       event.preventDefault()
+//     console.log('paste',event)
+// }
+// edit.addEventListener('copy', copy)
+// edit.addEventListener('paste', paste)
+// edit.addEventListener('cut', cut)
+
+
+
+
+//149-Concept-and-application-of-pageX-and-pageY
+
+// function handle(){
+//     console.log(event)
+// }
+
+
+
+//150-Attractive-Custom-ContextMenu-project-how-to-implement
+
+
+
+//151-do-Custom-ContextMenu-project
+
+
+
+
+//152-Concept-and-application-of-the-onLoad-event
+
+// // let bady = document.body
+// function logoload(){
+//     bady.style.background = 'blue'
+//     // console.log('loaded')
+// }
+// document.body.addEventListener('load', logoload)
+
+
+
+// 153-Work-with-the-DOMContentLoaded-event'
+// document.addEventListener('DOMContentLoaded', function(){
+//     console.log('dom')
+// })
+
+
+
+//154-Event-difference-between-onLoad-and-DOMContentLoaded
+
+
+
+
+
+//155-Attractive-and-practical-PreLoad-project-how-to-implement
+
+
+
+
+//156-do-of-the-PreLoad-project
+
+
+
+//157-Timer-Project-Debug
+
+
+
+
+//158-Work-with-unload-and-beforeUnLoad-events
+
+// function load(){
+//     console.log('loaded')
+// }
+
+
+
+//159-How-to-use-removeEventListener
+
+// let box1 = document.getElementById('box')
+// let btne = document.getElementById('btn')
+
+// function mouse(){
+//     console.log('move')
+// }
+
+// function remive(){
+// box1.removeEventListener('mousemove', mouse)
+// }
+
+// box1.addEventListener('mousemove', mouse)
+// btne.addEventListener('click',  remive)
+
+
+
+
+//160-Work-with-the-onSelect-event
+
+//  let select1 = document.getElementById('select')
+//  function selecthandler(){
+// console.log('screenLeft', event);
+//  }
+
+
+//161-How-to-work-with-Touch-events
+
+//162-Input-MaxLength-Project-How-to-Implement
+
+//163-do-Input-MaxLength-project
+
+//164-Modal-Project-How-to-Implement
+
+//165-Modal-project
+
+//166-Attractive-Note-App-project-how-to-implement
+
+//167-Note-App-project-1
+
+//168-Note-App-project-2
+
+// 169-Note-App-project-3
+
+
+
+//170-How-to-work-with-onScroll-event
+
+// function scroll(event){
+// console.log(Math.floor(document.documentElement.scrollTop, document.documentElement.scrollLeft))
+// }
+
+
+// 171-Cool-and-practical-project-Sticky-NavBar--how-to-implement
+
+//172-Sticky-NavBar-project
+
+
+
+//173-Work-with-scrollTo-and-scrollBy-methods
+
+// function scrolltop(){
+//     window.scrollTo(0, 0)
+// }
+
+// function scrolldown(){
+//     window.scrollBy(0,100)
+// }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+// 174-Concept-and-application-of-dataset-in-DOM
+
+// function datashow(event) {
+//     console.log(event.target.dataset.name);
+// }
+
+
+// 175-Methods-and-properties-of-working-with-Media-Audio-Video-elements
+
+// let audion = document.querySelector('video')
+// let time2 = document.getElementById('time')
+
+// function playhndler(){
+// audion.play()
+// setInterval(function(){
+//     time2.innerHTML = Math.floor(audion.currentTime) 
+
+// },1000)
+// }
+// function pausehndler(){
+//     audion.pause()
+// }
+
+// function duration(){
+//     console.log('duration', audion.duration)
+// }
+
+// function playbackrate2(){
+//     audion.playbackRate = 2
+// }
+
+// function currenttime(){
+//    console.log(audion.currentTime)
+// }
+
+// audion.play()
+// audion.pause()
+// audion.duration()
+// audion.currentTime()
+// audion.playbackRate() 1.x 2.x
+
+
+//176-simple-music-player-projec/" 
